@@ -1,0 +1,16 @@
+[01-Jan-2026 18:43:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[01-Jan-2026 18:43:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[01-Jan-2026 18:43:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[01-Jan-2026 18:43:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7

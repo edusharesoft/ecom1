@@ -1,0 +1,320 @@
+[06-Dec-2024 13:49:41 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\OrderStatus as OrderStatus because the name is already in use in /home/softitbd/fcom4/app/Http/Controllers/Admin/OrderController.php on line 22
+[06-Dec-2024 13:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\OrderStatus as OrderStatus because the name is already in use in /home/softitbd/fcom4/app/Http/Controllers/Admin/OrderController.php on line 22
+[02-Oct-2025 18:30:45 Asia/Dhaka] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\OrderController::fraudCheck() in /home/creativedesignbd/myshop3.creativedesign.com.bd/app/Http/Controllers/Admin/OrderController.php on line 58
+[20-Nov-2025 01:35:12 Asia/Dhaka] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\ApiIntegrationController::updateEnvFile() in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/app/Http/Controllers/Admin/ApiIntegrationController.php on line 191
+[15-Dec-2025 16:03:04 Asia/Dhaka] PHP Fatal error:  Cannot use Illuminate\Support\Facades\DB as DB because the name is already in use in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/storage/framework/views/12cf38efc08b33ce162ed19e53e528bc2e20dfbb.php on line 250
+[15-Dec-2025 16:05:32 Asia/Dhaka] PHP Fatal error:  Cannot use Illuminate\Support\Facades\DB as DB because the name is already in use in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/storage/framework/views/12cf38efc08b33ce162ed19e53e528bc2e20dfbb.php on line 250
+[15-Dec-2025 16:06:16 Asia/Dhaka] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Auth as Auth because the name is already in use in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/storage/framework/views/12cf38efc08b33ce162ed19e53e528bc2e20dfbb.php on line 251
+[23-Dec-2025 21:48:17 Asia/Dhaka] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:467
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(822): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/storage/framework/views/519417e7f32cb714de9a1607bf18e8316d1ec57e.php(91): route('home')
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/creatived...')
+#3 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/creatived...', Array)
+#5 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/creatived...', Array)
+#6 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(152): Illuminate\View\Engines\CompilerEngine->get('/home/creatived...', Array)
+#7 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\View->getContents()
+#8 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(104): Illuminate\View\View->renderContents()
+#9 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#10 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct(Object(Illuminate\View\View), 500, Array)
+#12 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
+#13 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view('errors::500', Array, 500, Array)
+#14 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#15 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#16 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#17 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#18 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\View\ViewException))
+#19 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\View\ViewException))
+#20 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\View\ViewException))
+#21 {main}
+
+Next Illuminate\View\ViewException: Route [home] not defined. (View: /home/creativedesignbd/ecommerce1.creativedesign.com.bd/resources/views/errors/500.blade.php) in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:467
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(Symfony\Component\Routing\Exception\RouteNotFoundException), 1)
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/creatived...', Array)
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(152): Illuminate\View\Engines\CompilerEngine->get('/home/creatived...', Array)
+#3 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\View->getContents()
+#4 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(104): Illuminate\View\View->renderContents()
+#5 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct(Object(Illuminate\View\View), 500, Array)
+#8 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
+#9 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view('errors::500', Array, 500, Array)
+#10 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#13 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#14 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\View\ViewException))
+#15 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\View\ViewException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\View\ViewException))
+#17 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 467
+[23-Dec-2025 21:48:19 Asia/Dhaka] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:467
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(822): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/storage/framework/views/519417e7f32cb714de9a1607bf18e8316d1ec57e.php(91): route('home')
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/creatived...')
+#3 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/creatived...', Array)
+#5 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/creatived...', Array)
+#6 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(152): Illuminate\View\Engines\CompilerEngine->get('/home/creatived...', Array)
+#7 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\View->getContents()
+#8 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(104): Illuminate\View\View->renderContents()
+#9 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#10 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct(Object(Illuminate\View\View), 500, Array)
+#12 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
+#13 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view('errors::500', Array, 500, Array)
+#14 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#15 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#16 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#17 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#18 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\View\ViewException))
+#19 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\View\ViewException))
+#20 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\View\ViewException))
+#21 {main}
+
+Next Illuminate\View\ViewException: Route [home] not defined. (View: /home/creativedesignbd/ecommerce1.creativedesign.com.bd/resources/views/errors/500.blade.php) in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:467
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(Symfony\Component\Routing\Exception\RouteNotFoundException), 1)
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/creatived...', Array)
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(152): Illuminate\View\Engines\CompilerEngine->get('/home/creatived...', Array)
+#3 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\View->getContents()
+#4 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(104): Illuminate\View\View->renderContents()
+#5 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct(Object(Illuminate\View\View), 500, Array)
+#8 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
+#9 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view('errors::500', Array, 500, Array)
+#10 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#13 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#14 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\View\ViewException))
+#15 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\View\ViewException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\View\ViewException))
+#17 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 467
+[23-Dec-2025 21:48:26 Asia/Dhaka] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:467
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(822): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/storage/framework/views/519417e7f32cb714de9a1607bf18e8316d1ec57e.php(91): route('home')
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/creatived...')
+#3 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/creatived...', Array)
+#5 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/creatived...', Array)
+#6 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(152): Illuminate\View\Engines\CompilerEngine->get('/home/creatived...', Array)
+#7 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\View->getContents()
+#8 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(104): Illuminate\View\View->renderContents()
+#9 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#10 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct(Object(Illuminate\View\View), 500, Array)
+#12 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
+#13 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view('errors::500', Array, 500, Array)
+#14 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#15 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#16 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#17 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#18 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\View\ViewException))
+#19 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\View\ViewException))
+#20 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\View\ViewException))
+#21 {main}
+
+Next Illuminate\View\ViewException: Route [home] not defined. (View: /home/creativedesignbd/ecommerce1.creativedesign.com.bd/resources/views/errors/500.blade.php) in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:467
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(Symfony\Component\Routing\Exception\RouteNotFoundException), 1)
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/creatived...', Array)
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(152): Illuminate\View\Engines\CompilerEngine->get('/home/creatived...', Array)
+#3 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\View->getContents()
+#4 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(104): Illuminate\View\View->renderContents()
+#5 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct(Object(Illuminate\View\View), 500, Array)
+#8 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
+#9 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view('errors::500', Array, 500, Array)
+#10 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#13 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#14 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\View\ViewException))
+#15 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\View\ViewException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\View\ViewException))
+#17 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 467
+[23-Dec-2025 21:48:26 Asia/Dhaka] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:467
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(822): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/storage/framework/views/519417e7f32cb714de9a1607bf18e8316d1ec57e.php(91): route('home')
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/creatived...')
+#3 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/creatived...', Array)
+#5 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/creatived...', Array)
+#6 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(152): Illuminate\View\Engines\CompilerEngine->get('/home/creatived...', Array)
+#7 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\View->getContents()
+#8 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(104): Illuminate\View\View->renderContents()
+#9 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#10 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct(Object(Illuminate\View\View), 500, Array)
+#12 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
+#13 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view('errors::500', Array, 500, Array)
+#14 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#15 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#16 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#17 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#18 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\View\ViewException))
+#19 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\View\ViewException))
+#20 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\View\ViewException))
+#21 {main}
+
+Next Illuminate\View\ViewException: Route [home] not defined. (View: /home/creativedesignbd/ecommerce1.creativedesign.com.bd/resources/views/errors/500.blade.php) in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:467
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(Symfony\Component\Routing\Exception\RouteNotFoundException), 1)
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/creatived...', Array)
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(152): Illuminate\View\Engines\CompilerEngine->get('/home/creatived...', Array)
+#3 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\View->getContents()
+#4 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(104): Illuminate\View\View->renderContents()
+#5 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct(Object(Illuminate\View\View), 500, Array)
+#8 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
+#9 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view('errors::500', Array, 500, Array)
+#10 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#13 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#14 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\View\ViewException))
+#15 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\View\ViewException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\View\ViewException))
+#17 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 467
+[23-Dec-2025 21:49:09 Asia/Dhaka] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:467
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(822): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/storage/framework/views/519417e7f32cb714de9a1607bf18e8316d1ec57e.php(91): route('home')
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/creatived...')
+#3 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/creatived...', Array)
+#5 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/creatived...', Array)
+#6 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(152): Illuminate\View\Engines\CompilerEngine->get('/home/creatived...', Array)
+#7 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\View->getContents()
+#8 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(104): Illuminate\View\View->renderContents()
+#9 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#10 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct(Object(Illuminate\View\View), 500, Array)
+#12 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
+#13 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view('errors::500', Array, 500, Array)
+#14 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#15 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#16 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#17 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#18 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\View\ViewException))
+#19 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\View\ViewException))
+#20 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\View\ViewException))
+#21 {main}
+
+Next Illuminate\View\ViewException: Route [home] not defined. (View: /home/creativedesignbd/ecommerce1.creativedesign.com.bd/resources/views/errors/500.blade.php) in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:467
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(Symfony\Component\Routing\Exception\RouteNotFoundException), 1)
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/creatived...', Array)
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(152): Illuminate\View\Engines\CompilerEngine->get('/home/creatived...', Array)
+#3 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\View->getContents()
+#4 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/View/View.php(104): Illuminate\View\View->renderContents()
+#5 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct(Object(Illuminate\View\View), 500, Array)
+#8 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
+#9 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view('errors::500', Array, 500, Array)
+#10 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#13 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Spatie\LaravelIgnition\Exceptions\ViewException))
+#14 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\View\ViewException))
+#15 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\View\ViewException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\View\ViewException))
+#17 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 467
+[01-Jan-2026 14:59:25 UTC] PHP Fatal error:  Only files produced by either the PHP 8.2 or 8.3 ionCube Encoders can run on PHP 8.3.
+ The file /home/creativedesignbd/ecommerce1.creativedesign.com.bd/app/Http/Kernel.php has been encoded by the ionCube Encoder for PHP 8.1. in Unknown on line 0
+[15-Jan-2026 09:48:23 UTC] PHP Fatal error:  Only files produced by the PHP 8.2 ionCube Encoder can run on PHP 8.2.
+ The file /home/creativedesignbd/ecommerce1.creativedesign.com.bd/app/Http/Kernel.php has been encoded by the ionCube Encoder for PHP 8.1. in Unknown on line 0
+[15-Jan-2026 09:49:01 UTC] PHP Fatal error:  Only files produced by the PHP 8.2 ionCube Encoder can run on PHP 8.2.
+ The file /home/creativedesignbd/ecommerce1.creativedesign.com.bd/app/Http/Kernel.php has been encoded by the ionCube Encoder for PHP 8.1. in Unknown on line 0
+[15-Jan-2026 09:52:23 UTC] PHP Fatal error:  Only files produced by the PHP 8.2 ionCube Encoder can run on PHP 8.2.
+ The file /home/creativedesignbd/ecommerce1.creativedesign.com.bd/app/Http/Kernel.php has been encoded by the ionCube Encoder for PHP 8.1. in Unknown on line 0
+[15-Jan-2026 09:54:50 UTC] PHP Fatal error:  Only files produced by the PHP 8.2 ionCube Encoder can run on PHP 8.2.
+ The file /home/creativedesignbd/ecommerce1.creativedesign.com.bd/app/Http/Kernel.php has been encoded by the ionCube Encoder for PHP 8.1. in Unknown on line 0
+[19-Jan-2026 20:22:46 Asia/Dhaka] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\OrderController::manualFraudCheckPage() in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/app/Http/Controllers/Admin/OrderController.php on line 176
+[19-Jan-2026 20:22:50 Asia/Dhaka] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\OrderController::manualFraudCheckPage() in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/app/Http/Controllers/Admin/OrderController.php on line 176
+[19-Jan-2026 20:23:49 Asia/Dhaka] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\OrderController::manualFraudCheckPage() in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/app/Http/Controllers/Admin/OrderController.php on line 176
+[21-Jan-2026 19:19:54 UTC] PHP Warning:  require(/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/autoload.php): Failed to open stream: No such file or directory in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/index.php on line 34
+[21-Jan-2026 19:19:54 UTC] PHP Warning:  require(/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/autoload.php): Failed to open stream: No such file or directory in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/index.php on line 34
+[21-Jan-2026 19:19:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/index.php on line 34
+[21-Jan-2026 19:19:56 UTC] PHP Warning:  require(/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php on line 39
+[21-Jan-2026 19:19:56 UTC] PHP Warning:  require(/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php on line 39
+[21-Jan-2026 19:19:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php:39
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php(43): {closure}()
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/autoload.php(22): ComposerAutoloaderInit753e73c8eeef9796420facf4bfb57683::getLoader()
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/index.php(34): require('/home/creatived...')
+#3 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php on line 39
+[21-Jan-2026 19:19:58 UTC] PHP Warning:  require(/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php on line 39
+[21-Jan-2026 19:19:58 UTC] PHP Warning:  require(/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php on line 39
+[21-Jan-2026 19:19:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php:39
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php(43): {closure}()
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/autoload.php(22): ComposerAutoloaderInit753e73c8eeef9796420facf4bfb57683::getLoader()
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/index.php(34): require('/home/creatived...')
+#3 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php on line 39
+[21-Jan-2026 19:20:00 UTC] PHP Warning:  require(/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php on line 39
+[21-Jan-2026 19:20:00 UTC] PHP Warning:  require(/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php on line 39
+[21-Jan-2026 19:20:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php:39
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php(43): {closure}()
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/autoload.php(22): ComposerAutoloaderInit753e73c8eeef9796420facf4bfb57683::getLoader()
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/index.php(34): require('/home/creatived...')
+#3 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php on line 39
+[21-Jan-2026 19:20:02 UTC] PHP Warning:  include(/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../vlucas/phpdotenv/src/Repository/RepositoryBuilder.php): Failed to open stream: No such file or directory in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/ClassLoader.php on line 576
+[21-Jan-2026 19:20:02 UTC] PHP Warning:  include(/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../vlucas/phpdotenv/src/Repository/RepositoryBuilder.php): Failed to open stream: No such file or directory in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/ClassLoader.php on line 576
+[21-Jan-2026 19:20:02 UTC] PHP Warning:  include(): Failed opening '/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../vlucas/phpdotenv/src/Repository/RepositoryBuilder.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/ClassLoader.php on line 576
+[21-Jan-2026 19:20:02 UTC] PHP Fatal error:  Uncaught Error: Class "Dotenv\Repository\RepositoryBuilder" not found in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Env.php:79
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Env.php(254): Illuminate\Support\Env::getRepository()
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Env.php(104): Illuminate\Support\Env::getOption()
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(803): Illuminate\Support\Env::get()
+#3 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Log/Context/ContextServiceProvider.php(23): Illuminate\Foundation\Application->runningInConsole()
+#4 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(896): Illuminate\Log\Context\ContextServiceProvider->register()
+#5 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(303): Illuminate\Foundation\Application->register()
+#6 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(223): Illuminate\Foundation\Application->registerBaseServiceProviders()
+#7 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(241): Illuminate\Foundation\Application->__construct()
+#8 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/bootstrap/app.php(7): Illuminate\Foundation\Application::configure()
+#9 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/index.php(47): require_once('/home/creatived...')
+#10 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Env.php on line 79
+[21-Jan-2026 19:20:39 UTC] PHP Parse error:  syntax error, unexpected token "readonly", expecting "abstract" or "final" or "class" in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/sebastian/version/src/Version.php on line 23
+[21-Jan-2026 19:20:43 UTC] PHP Parse error:  syntax error, unexpected token "readonly", expecting "abstract" or "final" or "class" in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/sebastian/version/src/Version.php on line 23
+[21-Jan-2026 19:20:53 UTC] PHP Parse error:  syntax error, unexpected token "readonly", expecting "abstract" or "final" or "class" in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/sebastian/version/src/Version.php on line 23
+[21-Jan-2026 19:20:54 UTC] PHP Parse error:  syntax error, unexpected token "readonly", expecting "abstract" or "final" or "class" in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/sebastian/version/src/Version.php on line 23
+[21-Jan-2026 19:20:58 UTC] PHP Parse error:  syntax error, unexpected token "readonly", expecting "abstract" or "final" or "class" in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/sebastian/version/src/Version.php on line 23
+[21-Jan-2026 19:21:02 UTC] PHP Parse error:  syntax error, unexpected token "readonly", expecting "abstract" or "final" or "class" in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/sebastian/version/src/Version.php on line 23
+[21-Jan-2026 19:21:11 UTC] PHP Parse error:  syntax error, unexpected token "readonly", expecting "abstract" or "final" or "class" in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/sebastian/version/src/Version.php on line 23
+[21-Jan-2026 19:21:12 UTC] PHP Parse error:  syntax error, unexpected token "readonly", expecting "abstract" or "final" or "class" in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/sebastian/version/src/Version.php on line 23
+[21-Jan-2026 19:21:14 UTC] PHP Parse error:  syntax error, unexpected token "readonly", expecting "abstract" or "final" or "class" in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/sebastian/version/src/Version.php on line 23
+[21-Jan-2026 19:21:15 UTC] PHP Parse error:  syntax error, unexpected token "readonly", expecting "abstract" or "final" or "class" in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/sebastian/version/src/Version.php on line 23
+[29-Jun-2026 17:16:48 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/laravel/prompts/src/helpers.php on line 16
+[01-Jul-2026 07:07:21 UTC] PHP Warning:  require(/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php on line 39
+[01-Jul-2026 07:07:21 UTC] PHP Warning:  require(/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php on line 39
+[01-Jul-2026 07:07:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php:39
+Stack trace:
+#0 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php(43): {closure}('6e3fae29631ef28...', '/home/creatived...')
+#1 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/autoload.php(22): ComposerAutoloaderInit753e73c8eeef9796420facf4bfb57683::getLoader()
+#2 /home/creativedesignbd/ecommerce1.creativedesign.com.bd/index.php(34): require('/home/creatived...')
+#3 {main}
+  thrown in /home/creativedesignbd/ecommerce1.creativedesign.com.bd/vendor/composer/autoload_real.php on line 39
